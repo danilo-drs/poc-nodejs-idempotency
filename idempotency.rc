@@ -1,0 +1,17 @@
+{
+  "defaults": {
+    "ENABLED": true,
+    "WITH_ERROR": 0,
+    "TIMEOUT": 20000,
+    "TTL": 20000,
+    "BYPASS_METHODS": "GET;OPTIONS;"
+  },
+  "paths": {
+    "POST:/": {
+      "TIMEOUT": 2000
+    },
+    "GET:/": {
+      "BYPASS": false
+    }
+  }
+}
